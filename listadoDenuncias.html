@@ -1,0 +1,595 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>FGJ EDOMEX</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="Main.css"/>
+		<link rel="stylesheet" href="style.css"/>
+         <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+
+
+    <div class="card-header" style="border-radius: 2vh; width: auto;">
+        <div class="row">
+          <div class="col-auto ">
+            <img id="banner-img" class="imgBuscados" src="iconos/icn_listado denuncias grande.png">
+          </div>
+          <div class="col-md-8">
+            <h1 class="card-title-header ms-5">Listado de denuncias</h1>
+            <p class="card-text-header ms-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus maiores doloremque, reiciendis enim doloribus culpa tenetur consequatur sit quas quod in iste dolorum cum perspiciatis, impedit neque! Ad, modi. Nihil. 
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </head>
+    <body style="background-color: white; margin: 10%; margin-top: 5vh;">
+        <section id="tiles" class="container">
+            <div class="row">
+                <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img id="iconos" src="iconos/icn_tortura.png" class="card-img-top" alt="Imagen de tarjeta">
+                        <div class="card-body">
+                            <h1>Denuncia por tortura</h1>
+                            <hr>
+                            <div class="btns">
+                                <button type="button" class="btn btn-queEs btn-lg" data-bs-toggle="modal" data-bs-target="#denuncia-tortura-modal">¿Qué es?</button>
+                                <a href="index.html" type="button" class="btn btn-denunciar btn-lg">DENUNCIAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img id="iconos" src="iconos/icn_flagrancia.png" class="card-img-top" alt="Imagen de tarjeta">
+                        <div class="card-body">
+                            <h1>Denuncia en flagrancia</h1>
+                            <hr>
+                            <div class="btns">
+                                 <button type="button" class="btn btn-queEs btn-lg" data-bs-toggle="modal" data-bs-target="#denuncia-flagrancia-modal">¿Qué es?</button>
+                                <a href="index.html" type="button" class="btn btn-denunciar btn-lg">DENUNCIAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img id="iconos" src="iconos/icn_persona desaparecida.png" class="card-img-top" alt="Imagen de tarjeta">
+                        <div class="card-body">
+                            <h1>Persona desaparecida</h1>
+                            <hr>
+                            <div class="btns">
+                                <button type="button" class="btn btn-queEs btn-lg" data-bs-toggle="modal" data-bs-target="#persona-desaparecida-modal">¿Qué es?</button>
+                                <a href="index.html" type="button" class="btn btn-denunciar btn-lg">DENUNCIAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img id="iconos" src="iconos/secuestro.png" class="card-img-top" alt="Imagen de tarjeta">
+                        <div class="card-body">
+                            <h1>Secuestro</h1>
+                            <hr>
+                            <div class="btns">
+                                <button type="button" class="btn btn-queEs btn-lg" data-bs-toggle="modal" data-bs-target="#secuestro-modal">¿Qué es?</button>
+                                <a href="index.html" type="button" class="btn btn-denunciar btn-lg">DENUNCIAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img id="iconos" src="iconos/icn_homicidio.png" class="card-img-top" alt="Imagen de tarjeta">
+                        <div class="card-body">
+                            <h1>Homicidio</h1>
+                            <hr>
+                            <div class="btns">
+                                <button type="button" class="btn btn-queEs btn-lg" data-bs-toggle="modal" data-bs-target="#homicidio-modal">¿Qué es?</button>
+                                <a href="index.html" type="button" class="btn btn-denunciar btn-lg">DENUNCIAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img id="iconos" src="iconos/icn_robo en casa.png" class="card-img-top" alt="Imagen de tarjeta">
+                        <div class="card-body">
+                            <h1>Robo en casa habitación</h1>
+                            <hr>
+                            <div class="btns">
+                                <button type="button" class="btn btn-queEs btn-lg" data-bs-toggle="modal" data-bs-target="#robo-casa-habitacion-modal">¿Qué es?</button>
+                                <a href="index.html" type="button" class="btn btn-denunciar btn-lg">DENUNCIAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img id="iconos" style="height: 10%; width: 20%;" src="iconos/icn_robo vehiculo.png" class="card-img-top" alt="Imagen de tarjeta">
+                        <div class="card-body">
+                            <h1>Robo de vehículos</h1>
+                            <hr>
+                            <div class="btns">
+                                <button type="button" class="btn btn-queEs btn-lg" data-bs-toggle="modal" data-bs-target="#robo-vehiculos-modal">¿Qué es?</button>
+                                <a href="index.html" type="button" class="btn btn-denunciar btn-lg">DENUNCIAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img id="iconos" src="iconos/icn_robo violencia.png" class="card-img-top" alt="Imagen de tarjeta">
+                        <div class="card-body">
+                            <h1>Robo con violencia</h1>
+                            <hr>
+                            <div class="btns">
+                                <button type="button" class="btn btn-queEs btn-lg" data-bs-toggle="modal" data-bs-target="#robo-violencia-modal">¿Qué es?</button>
+                                <a href="index.html" type="button" class="btn btn-denunciar btn-lg">DENUNCIAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img id="iconos" style="height: 10%; width: 20%;" src="iconos/icn_robo transporte publico.png" class="card-img-top" alt="Imagen de tarjeta">
+                        <div class="card-body">
+                            <h1 style="font-size: 25px; margin-top: 4%;">Robo en transporte público</h1>
+                            <hr>
+                            <div class="btns">
+                                <button type="button" class="btn btn-queEs btn-lg" data-bs-toggle="modal" data-bs-target="#robo-transporte-publico-modal">¿Qué es?</button>
+                                <a href="index.html" type="button" class="btn btn-denunciar btn-lg">DENUNCIAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img id="iconos" style="height: 12%; width: 22%;" src="iconos/icn_trata personas.png" class="card-img-top" alt="Imagen de tarjeta">
+                        <div class="card-body">
+                            <h1>Trata de personas</h1>
+                            <hr>
+                            <div class="btns">
+                                <button type="button" class="btn btn-queEs btn-lg" data-bs-toggle="modal" data-bs-target="#trata-personas-modal">¿Qué es?</button>
+                                <a href="index.html" type="button" class="btn btn-denunciar btn-lg">DENUNCIAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img id="iconos" src="iconos/icn_delitos sexuales.png" class="card-img-top" alt="Imagen de tarjeta">
+                        <div class="card-body">
+                            <h1>Delitos sexuales</h1>
+                            <hr>
+                            <div class="btns">
+                                <button type="button" class="btn btn-queEs btn-lg" data-bs-toggle="modal" data-bs-target="#delitos-sexuales-modal">¿Qué es?</button>
+                                <a href="index.html" type="button" class="btn btn-denunciar btn-lg">DENUNCIAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img id="iconos" src="iconos/icn_lesiones.png" class="card-img-top" alt="Imagen de tarjeta">
+                        <div class="card-body">
+                            <h1>Lesiones</h1>
+                            <hr>
+                            <div class="btns">
+                                <button type="button" class="btn btn-queEs btn-lg" data-bs-toggle="modal" data-bs-target="#lesiones-modal">¿Qué es?</button>
+                                <a href="index.html" type="button" class="btn btn-denunciar btn-lg">DENUNCIAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-3 col-xl-4 col-lg-5 col-md-6 col-sm-12">
+                    <div class="card">
+                        <img id="iconos" style="height: 10%; width: 25%;" src="iconos/icn_otras denuncias.png" class="card-img-top" alt="Imagen de tarjeta">
+                        <div class="card-body">
+                            <h1>Otras denuncias</h1>
+                            <hr>
+                            <div class="btns">
+                                <button type="button" class="btn btn-queEs btn-lg" data-bs-toggle="modal" data-bs-target="#otras-denuncias-modal">¿Qué es?</button>
+                                <a href="index.html" type="button" class="btn btn-denunciar btn-lg">DENUNCIAR</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        <!-- MODAL - Denuncia de tortura -->
+        <div class="modal fade" id="denuncia-tortura-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="denuncia-tortura-modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content" style="border-radius: 2vh;">
+                <div class="modal-header">
+                <h1 class="modal-title" id="staticBackdropLabel">¿Qué es?</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h1>Denuncia de tortura</h1>
+                    <div class="subtitulo">
+                        <img id="iconos-modal" src="iconos/icn_tortura.png" alt="Imagen de tarjeta">
+                    </div>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-denunciar-modal btn-lg" data-bs-dismiss="modal">DENUNCIAR</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- MODAL - Denuncia de tortura -->
+
+        <!-- MODAL - Denuncia de flagrancia -->
+        <div class="modal fade" id="denuncia-flagrancia-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="denuncia-flagrancia-modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content" style="border-radius: 2vh;">
+                <div class="modal-header">
+                <h1 class="modal-title" id="staticBackdropLabel">¿Qué es?</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h1>Denuncia en fragrancia</h1>
+                    <div class="subtitulo">
+                        <img id="iconos-modal" src="iconos/icn_flagrancia.png" alt="Imagen de tarjeta">
+                    </div>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-denunciar-modal btn-lg" data-bs-dismiss="modal">DENUNCIAR</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- MODAL - Denuncia de flagrancia -->
+
+        <!-- MODAL - Persona desaparecia -->
+        <div class="modal fade" id="persona-desaparecida-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="persona-desaparecida-modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content" style="border-radius: 2vh;">
+                <div class="modal-header">
+                <h1 class="modal-title" id="staticBackdropLabel">¿Qué es?</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h1>Persona desaparecia</h1>
+                    <div class="subtitulo">
+                        <img id="iconos-modal" src="iconos/icn_persona desaparecida.png" alt="Imagen de tarjeta">
+                    </div>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-denunciar-modal btn-lg" data-bs-dismiss="modal">DENUNCIAR</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- MODAL - Persona desaparecida -->
+
+        <!-- MODAL - Secuestro -->
+        <div class="modal fade" id="secuestro-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="secuestro-modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content" style="border-radius: 2vh;">
+                <div class="modal-header">
+                <h1 class="modal-title" id="staticBackdropLabel">¿Qué es?</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h1>Secuestro</h1>
+                    <div class="subtitulo">
+                        <img id="iconos-modal" src="iconos/secuestro.png" alt="Imagen de tarjeta">
+                    </div>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-denunciar-modal btn-lg" data-bs-dismiss="modal">DENUNCIAR</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- MODAL - Secuestro -->
+
+        <!-- MODAL - Homicidio -->
+        <div class="modal fade" id="homicidio-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="homicidio-modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content" style="border-radius: 2vh;">
+                <div class="modal-header">
+                <h1 class="modal-title" id="staticBackdropLabel">¿Qué es?</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h1>Homicidio</h1>
+                    <div class="subtitulo">
+                        <img id="iconos-modal" src="iconos/icn_homicidio.png" alt="Imagen de tarjeta">
+                    </div>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-denunciar-modal btn-lg" data-bs-dismiss="modal">DENUNCIAR</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- MODAL - Homicidio -->
+
+        <!-- MODAL - Robo en casa habitacion -->
+        <div class="modal fade" id="robo-casa-habitacion-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="robo-casa-habitacion-modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content" style="border-radius: 2vh;">
+                <div class="modal-header">
+                <h1 class="modal-title" id="staticBackdropLabel">¿Qué es?</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h1>Robo en casa habitación</h1>
+                    <div class="subtitulo">
+                        <img id="iconos-modal" src="iconos/icn_robo en casa.png" alt="Imagen de tarjeta">
+                    </div>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-denunciar-modal btn-lg" data-bs-dismiss="modal">DENUNCIAR</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- MODAL - Robo en casa habitacion -->
+
+        <!-- MODAL - Robo de vehiculos -->
+        <div class="modal fade" id="robo-vehiculos-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="robo-vehiculos-modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content" style="border-radius: 2vh;">
+                <div class="modal-header">
+                <h1 class="modal-title" id="staticBackdropLabel">¿Qué es?</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h1>Robo de vehículos</h1>
+                    <div class="subtitulo">
+                        <img id="iconos-modal" src="iconos/icn_robo vehiculo.png" alt="Imagen de tarjeta">
+                    </div>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-denunciar-modal btn-lg" data-bs-dismiss="modal">DENUNCIAR</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- MODAL - Robo de vehiculos -->
+
+        <!-- MODAL - Robo con violencia -->
+        <div class="modal fade" id="robo-violencia-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="robo-violencia-modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content" style="border-radius: 2vh;">
+                <div class="modal-header">
+                <h1 class="modal-title" id="staticBackdropLabel">¿Qué es?</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h1>Robo con violencia</h1>
+                    <div class="subtitulo">
+                        <img id="iconos-modal" src="iconos/icn_robo violencia.png" alt="Imagen de tarjeta">
+                    </div>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-denunciar-modal btn-lg" data-bs-dismiss="modal">DENUNCIAR</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- MODAL - Robo con violencia -->
+
+        <!-- MODAL - Robo en transporte publico -->
+        <div class="modal fade" id="robo-transporte-publico-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="robo-transporte-publico-modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content" style="border-radius: 2vh;">
+                <div class="modal-header">
+                <h1 class="modal-title" id="staticBackdropLabel">¿Qué es?</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h1>Robo en transporte público</h1>
+                    <div class="subtitulo">
+                        <img id="iconos-modal" src="iconos/icn_robo transporte publico.png" alt="Imagen de tarjeta">
+                    </div>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-denunciar-modal btn-lg" data-bs-dismiss="modal">DENUNCIAR</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- MODAL - Robo en transporte publico -->
+
+        <!-- MODAL - Trata de personas -->
+        <div class="modal fade" id="trata-personas-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="trata-personas-modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content" style="border-radius: 2vh;">
+                <div class="modal-header">
+                <h1 class="modal-title" id="staticBackdropLabel">¿Qué es?</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h1>Trata de personas</h1>
+                    <div class="subtitulo">
+                        <img id="iconos-modal" src="iconos/icn_trata personas.png" alt="Imagen de tarjeta">
+                    </div>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-denunciar-modal btn-lg" data-bs-dismiss="modal">DENUNCIAR</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- MODAL - Trata de personas -->
+
+        <!-- MODAL - Delitos sexuales -->
+        <div class="modal fade" id="delitos-sexuales-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="delitos-sexuales-modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content" style="border-radius: 2vh;">
+                <div class="modal-header">
+                <h1 class="modal-title" id="staticBackdropLabel">¿Qué es?</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h1>Delitos sexuales</h1>
+                    <div class="subtitulo">
+                        <img id="iconos-modal" src="iconos/icn_delitos sexuales.png" alt="Imagen de tarjeta">
+                    </div>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-denunciar-modal btn-lg" data-bs-dismiss="modal">DENUNCIAR</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- MODAL - Delitos sexuales -->
+
+        <!-- MODAL - Lesiones -->
+        <div class="modal fade" id="lesiones-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="lesiones-modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content" style="border-radius: 2vh;">
+                <div class="modal-header">
+                <h1 class="modal-title" id="staticBackdropLabel">¿Qué es?</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h1>Lesiones</h1>
+                    <div class="subtitulo">
+                        <img id="iconos-modal" src="iconos/icn_lesiones.png" alt="Imagen de tarjeta">
+                    </div>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-denunciar-modal btn-lg" data-bs-dismiss="modal">DENUNCIAR</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- MODAL - Lesiones -->
+
+        <!-- MODAL - Otras denuncias -->
+        <div class="modal fade" id="otras-denuncias-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="otras-denuncias-modal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content" style="border-radius: 2vh;">
+                <div class="modal-header">
+                <h1 class="modal-title" id="staticBackdropLabel">¿Qué es?</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h1>Otras denuncias</h1>
+                    <div class="subtitulo">
+                        <img id="iconos-modal" src="iconos/icn_otras denuncias.png" alt="Imagen de tarjeta">
+                    </div>
+                    <hr>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-denunciar-modal btn-lg" data-bs-dismiss="modal">DENUNCIAR</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- MODAL - Otras denuncias -->
+
+        
+    
+    </body>
+</html>

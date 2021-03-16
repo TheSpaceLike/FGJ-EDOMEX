@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>FGJ EDOMEX</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="Main.css"/>
+		<link rel="stylesheet" href="style.css"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+
+        
+    <div class="card-header" style="border-radius: 2vh; width: auto;">
+      <div class="row">
+        <div class="col-auto ">
+          <img id="banner-img" class="imgBuscados" src="iconos/icn_servicios emergencia.png">
+        </div>
+        <div class="col-md-8">
+          <h1 class="card-title-header ms-5">Servicios de Emergencia</h1>
+          <p class="card-text-header ms-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus maiores doloremque, reiciendis enim doloribus culpa tenetur consequatur sit quas quod in iste dolorum cum perspiciatis, impedit neque! Ad, modi. Nihil. 
+          </p>
+        </div>
+      </div>
+    </div>
+
+    </head>
+    <body style="background-color: white; margin: 20%; margin-top: 5vh;">
+        <div class="container-servicios">
+            <table class="table-servicios-emergencia h-100">
+                <thead>
+                  <tr>
+                    <th scope="col"><img src="iconos/icn_telefono.png" id="iconosSE" alt=""></th>
+                    <th scope="col"><h3 id="texto">Denuncias telefónica</h3></th>
+                    <th scope="col"></th>
+                  </tr>
+                  
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><img src="iconos/icn_911.png" id="iconosSE" alt=""></td>
+                    <td><h3 id="texto">Emergencias</h3></td>
+                    <td><h3 id="texto">911</h3></td>
+                  </tr>
+                  <tr>
+    
+                    <td><img src="iconos/secretarioa seguridad.png" id="iconosSE" alt=""></td>
+                    <td><h3 id="texto">Secretaria de<br>seguridad<br>(Anónima)</h3></td>
+                    <td><h3 id="texto">089</h3></td>
+                  </tr>
+                  <tr>
+                    <td><h3 id="texto">CATGEM</h3></td>
+                    <td><h3 id="texto">Información<br>Gubernamental</h3></td>
+                    <td><h3 id="texto">01 800 696 9595</h3></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+
+        <div class="container-quejas-servicio">
+          <table class="table-servicios-emergencia h-100">
+              <thead>
+                <tr >
+                  <th scope="col"><img src="iconos/icn_quejas servicio.png" id="iconosSE" alt=""></th>
+                  <th scope="col"><h3 id="texto">Quejas en el Servicio</h3></th>
+                  <th scope="col"></th>
+                </tr>
+                
+              </thead>
+              <tbody>
+                <tr>
+                  <td><h3 id="texto">Visitaduria</h3></td>
+                  <td><button type="button" class="btn btn-quejas btn-lg" data-bs-toggle="modal" data-bs-target="#visitaduria-modal">¿En qué consiste?</button></td>
+                  <td><h3 id="texto">01800 0906 4722</h3></td>
+                </tr>
+                <tr>
+  
+                  <td><h3 id="texto">Contraloría</h3></td>
+                  <td><button type="button" class="btn btn-quejas btn-lg" data-bs-toggle="modal" data-bs-target="#contraloria-modal">Presencial</button></td>
+                  <td>
+                    <h4 id="texto">msalazar@fiscaliaedomex.gob.mx</h4>
+                    <h4 id="texto">0172 2199 7280</h4>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        
+       <!-- MODAL - Visitaduria -->
+       <div class="modal fade" id="visitaduria-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="visitaduria-modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content" style="border-radius: 2vh;">
+            <div class="modal-header">
+            <img id="imgSE-modal" src="iconos/icn_quejas servicio.png" alt="Visitaduria">
+            <h1 class="modal-title" id="staticBackdropLabel">Visitaduria</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+            
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-aceptar-modal btn-lg" data-bs-dismiss="modal">Aceptar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- MODAL - Visitaduria -->
+
+      <!-- MODAL - Contraloria -->
+      <div class="modal fade" id="contraloria-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="contraloria-modal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content" style="border-radius: 2vh;">
+            <div class="modal-header">
+            <img id="imgSE-modal" src="iconos/icn_quejas servicio.png" alt="Contraloria">
+            <h1 class="modal-title" id="staticBackdropLabel">Contraloría</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum debitis eligendi repellendus reiciendis saepe dolorem similique quod amet, qui inventore architecto earum, quibusdam, quos nobis aperiam quisquam doloribus ut corporis.</p>
+            
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-aceptar-modal btn-lg" data-bs-dismiss="modal">Aceptar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- MODAL - Contraloria -->
+
+    
+
+    <footer>
+      <a href="index.html" class="btn-flotante">Regresar a la pantalla principal</a>
+
+      <!-- <button>
+        REGRESAR
+      </button> -->
+    </footer>
+	</body>
+</html>
+

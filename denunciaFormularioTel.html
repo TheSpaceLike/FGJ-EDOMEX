@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>FGJ EDOMEX</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="Main.css"/>
+		<link rel="stylesheet" href="style.css"/>
+<!--         
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style> -->
+
+<!--     
+    <link href="form-validation.css" rel="stylesheet"> -->
+
+
+    </head>
+    <body style="background-color: #E4EBF5;">
+        <body class="bg-light">
+    
+            <div class="container">
+              <main>
+                <div class="py-5 text-center">
+                    <!-- <div class="card-header mb-3" style="border-radius: 3em;">
+                        <div class="row-header g-0">
+                          <div class="col-md-4">
+                            <img id="banner-img" src="iconos/icn_denuncia extorsion grande.png" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body-header">
+                              <h5 class="card-title-header">Denuncia por extorsión</h5>
+                              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi, sequi. Porro, soluta non sapiente nihil molestiae, dolore ullam error nobis animi mollitia sint facilis ratione quo quibusdam, explicabo minus! Ex?</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div> -->                 
+                </div>
+                
+                     
+                
+                <div class="row g-12" style="width: 100%; background-color:#E4EBF5; border-radius: 4vh; padding: 3%;">
+                  <div class="col-md-5 col-lg-4 order-md-last">
+                    
+                    
+                  </div>
+                  <div class="col-md-12 col-lg-12" >
+                    <!-- <h4 class="mb-3">Billing address</h4> -->
+                    <form class="row g-3 needs-validation"  novalidate>           
+                        
+             
+                        <div class="col-12">
+                          <label for="nombre-denunciante" class="form-label" >Nombre de el Denunciante</label>
+                          <input type="text" class="form-control" id="nombre-denunciante" placeholder="Nombre de el Denunciante" required>
+                          <div class="invalid-feedback">
+                            Por favor introduzca su nombre.
+                          </div>
+                        </div>
+            
+                        <div class="col-12 mt-5">
+                          <label for="apellido-paterno" class="form-label">Apellido Paterno</label>
+                          <input type="text" class="form-control" id="apellido-paterno" placeholder="Escriba aquí...">
+                          <div class="invalid-feedback">
+                            Por favor introduzca su apellido paterno.
+                          </div>
+                        </div>
+
+                        <div class="col-12 mt-5">
+                            <label for="apellido-materno" class="form-label">Apellido Materno</label>
+                            <input type="text" class="form-control" id="apellido-materno" placeholder="Escriba aquí...">
+                            <div class="invalid-feedback">
+                              Por favor introduzca su apellido paterno.
+                            </div>
+                        </div>
+
+                        <label for="genero-denunciante" class="form-label mt-5">Elige tu genero:</label>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">Masculino</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Femenino</label>
+                          </div>
+
+                      <!-- <hr class="mt-5"> -->
+            
+                      <!-- <hr class="my-4"> -->
+            
+                      <!-- <h4 class="mb-3">Payment</h4>
+            
+                      <hr class="my-4"> -->
+
+                      <div class="col-12 mt-5">
+                        <label for="edad-denunciante" class="form-label">Edad</label>
+                        <input type="text" class="form-control" id="edad-denunciante" placeholder="Escriba aquí..." required>
+                        <div class="invalid-feedback">
+                          Por favor introduzca su edad.
+                        </div>
+                      </div>
+
+                      <div class="col-12 mt-5">
+                        <label for="nombre-denunciante" class="form-label">Domicilio para notificaciones</label>
+                        <input type="text" class="form-control" id="nombre-denunciante" placeholder="Escriba aquí..." required>
+                        <div class="invalid-feedback">
+                          Por favor introduzca su domicilio.
+                        </div>
+                      </div>
+
+                      <div class="col-12 mt-5">
+                        <label for="correo-denunciante" class="form-label">Correo</label>
+                        <input type="email" class="form-control" id="correo-denunciante" placeholder="Escriba aquí..." required>
+                        <div class="invalid-feedback">
+                          Por favor introduzca su correo electrónico.
+                        </div>
+                      </div>
+
+                      <div class="col-12 mt-5">
+                        <label for="telefono-denunciante" class="form-label">Teléfono</label>
+                        <input type="tel" class="form-control" id="telefono-denunciante" placeholder="Escriba aquí..." required>
+                        <div class="invalid-feedback">
+                          Por favor introduzca su teléfono.
+                        </div>
+                      </div>
+
+                      <div class="col-12 mt-5">
+                        <label for="fecha-denunciante" class="form-label">Fecha</label>
+                        <input type="date" class="form-control" id="fecha-denunciante" placeholder="Escriba aquí..." required>
+                        <div class="invalid-feedback">
+                          Por favor introduzca la fecha.
+                        </div>
+                      </div>
+
+                      <div class="col-12 mt-5">
+                        <label for="hora-denunciante" class="form-label">Hora</label>
+                        <input type="datetime" class="form-control" id="hora-denunciante" placeholder="Escriba aquí..." required>
+                        <div class="invalid-feedback">
+                          Por favor introduzca la hora.
+                        </div>
+                      </div>
+
+                      <div class="col-12 mt-5">
+                        <label for="lugar-de-los-hechos-denunciante" class="form-label">Lugar de los hecho</label>
+                        <input type="text" class="form-control" id="lugar-de-los-hechos-denunciante" placeholder="Escriba aquí..." required>
+                        <div class="invalid-feedback">
+                          Por favor introduzca el lugar de los hechos.
+                        </div>
+                      </div>
+
+                      <div class="col-12 mt-5">
+                        <label for="telefono-recibe-llamada-denunciante" class="form-label">Teléfono del que recibe la llamada</label>
+                        <input type="tel" class="form-control" id="telefono-recibe-llamada-denunciante" placeholder="Escriba aquí..." required>
+                        <div class="invalid-feedback">
+                          Por favor introduzca el telefóno del que recibe la llamada.
+                        </div>
+                      </div>
+
+                      <div class="col-12 mt-5">
+                        <label for="probable-responsable-denunciante" class="form-label">Probable responsable</label>
+                        <input type="text" class="form-control" id="probable-responsable-denunciante" placeholder="Escriba aquí..." required>
+                        <div class="invalid-feedback">
+                          Por favor introduzca el probable responsable.
+                        </div>
+                      </div>
+
+                      <div class="col-12 mt-5">
+                        <label for="probable-responsable-denunciante" class="form-label">Descripción de los hechos</label>
+                        <textarea class="form-control" placeholder="Escriba aquí..." id="descripcion-hechos-denunciante" style="height: 200px"></textarea>
+                        <div class="invalid-feedback">
+                          Por favor introduzca una descripción de los hechos.
+                        </div>
+                      </div>
+                      
+                      <a href="" type="button" class="btn btn-denunciar btn-lg  mt-5 d-grid gap-2 d-md-block mb-3" >DENUNCIAR</a>
+                      <!-- <button class="w-25 btn btn-primary btn-lg mt-5" type="submit">ENVIAR DENUNCIA</button> -->
+                    </form>
+                  </div>
+                </div>
+              </main>
+            
+            </div>
+<!-- 
+                <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+            
+                  <script src="form-validation.js"></script> -->
+              </body>
+	</body>
+</html>

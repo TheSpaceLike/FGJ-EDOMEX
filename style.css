@@ -36,9 +36,11 @@
 }
 
 .card-index{
-    width: 12rem;
+    width: 12em;
     height: 12em;
-    margin-top:10%;
+    margin:15%;
+    margin-top: 3%;
+    margin-left: 20%;
     background-color:#f4f4fa;
     border-radius: 3em;
 }
@@ -49,8 +51,8 @@
 
 .card-index #iconos{
     text-align: center;
-    height: 50%;
-    width: 50%;
+    height: 10vh;
+    width: 10vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -313,10 +315,15 @@
     font-size: 18px;
 }
 
-.container-servicios {
+.table-servicios-emergencia.table-center {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+.table-servicios-emergencia {
     color: white;
     background-color: #ECEEF4;
-    width: 100%;
+    width: 60%;
     border-radius: 4em;
     margin-bottom: 10%;
 }
